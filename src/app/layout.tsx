@@ -11,6 +11,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <title>LocalLink – Reach your neighbour instantly</title>
+        <meta name="description" content="A beautifully minimal Next.js app to reach your neighbour with a single click. Send SMS notifications anonymously and securely via Amazon SNS." />
+        <link rel="icon" href="/favicon.ico" />
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
@@ -19,7 +22,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
                   t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                   y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "${process.env.CLARITY_PROJECT_ID}");
+              })(window, document, "clarity", "script", "s34eekc50w");
             `,
           }}
         />
