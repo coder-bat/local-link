@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   const [loading, setLoading] = useState<string | null>(null);
