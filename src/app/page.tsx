@@ -83,7 +83,7 @@ export default function Home() {
       <div className="relative z-10 flex flex-col items-center w-full px-4">
         <h1 className="text-3xl md:text-5xl font-bold text-slate-900 drop-shadow mb-2 mt-8 md:mt-0 text-center" style={{letterSpacing: '-0.02em'}}>LocalLink</h1>
         <p className="text-lg md:text-xl text-slate-800 mb-8 text-center max-w-2xl">
-          Reach out to your neighbour withs single click.
+          Reach out to your neighbour with single click.
         </p>
         <div className="flex flex-col gap-5 w-full max-w-xs">
           <button
